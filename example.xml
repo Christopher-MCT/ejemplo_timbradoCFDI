@@ -1,0 +1,31 @@
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd" Version="4.0" Serie = "valor" Folio = "01" Fecha="2023-09-08T11:36:55" Sello="" FormaPago="02" NoCertificado="" CondicionesDePago="Pago en 30 dias" SubTotal="10" Descuento="0.3" Moneda="AFN" TipoCambio="654" Total="50000" TipoDeComprobante="E" Exportacion="02" MetodoPago="PUE" LugarExpedicion="00000" Confirmacion="ECVH1">
+
+    <cfdi:InformacionGlobal Periodicidad="01" Meses="01" Año="2022" />
+    <cfdi:CfdiRelacionados TipoRelacion="01">
+        <cfdi:CfdiRelacionado UUID="5FB2822E-396D-4725-8521-CDC4BDD20CCF" />
+    </cfdi:CfdiRelacionados>
+    <cfdi:Emisor Rfc="FIMA420127R44" Nombre="Carlos Cantana America" RegimenFiscal="601" FacAtrAdquirente="0123456789"/>
+    <cfdi:Receptor Rfc="FIMA420127R44" Nombre="Merida Solvenia Carranza" DomicilioFiscalReceptor="01001" RegimenFiscalReceptor="601" UsoCFDI="G01" />
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="01010101" Cantidad="5.555555" ClaveUnidad="18" Descripcion="Reparación de lavadora" ValorUnitario="1230.00" Importe="6150.00" ObjetoImp="01">
+            <cfdi:Impuestos></cfdi:Impuestos>
+            <cfdi:ACuentaTerceros RfcACuentaTerceros="FIMA420127R44" NombreACuentaTerceros="Marton Aleejandro Sanzi Fierror" RegimenFiscalACuentaTerceros="601" DomicilioFiscalACuentaTerceros="01002" />
+            <cfdi:InformacionAduanera NumeroPedimento="10 47 3807 8003832" />
+            <cfdi:CuentaPredial Numero="15956011002" />
+            <cfdi:ComplementoConcepto></cfdi:ComplementoConcepto>
+            <cfdi:Parte ClaveProdServ="01010101" Cantidad="" Descripcion=""></cfdi:Parte>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos>
+        <cfdi:Traslados>
+            <cfdi:Traslado Base="" Impuesto="001" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+        <cfdi:Retenciones>
+            <cfdi:Retencion Impuesto="001" Importe="" />
+        </cfdi:Retenciones>
+    </cfdi:Impuestos>
+    
+
+
+</cfdi:Comprobante>
