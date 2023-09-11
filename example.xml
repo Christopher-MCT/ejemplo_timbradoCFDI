@@ -11,11 +11,10 @@
         <cfdi:Concepto ClaveProdServ="01010101" Cantidad="5.555555" ClaveUnidad="18" Descripcion="Reparación de lavadora" ValorUnitario="1230.00" Importe="6150.00" ObjetoImp="01">
             <cfdi:Impuestos></cfdi:Impuestos>
             <cfdi:ACuentaTerceros RfcACuentaTerceros="FIMA420127R44" NombreACuentaTerceros="Marton Aleejandro Sanzi Fierror" RegimenFiscalACuentaTerceros="601" DomicilioFiscalACuentaTerceros="01002" />
-            <cfdi:InformacionAduanera NumeroPedimento="10 47 3807 8003832" />
+            <cfdi:InformacionAduanera NumeroPedimento="10  47  3807  8003832" />
             <cfdi:CuentaPredial Numero="15956011002" />
-            <cfdi:ComplementoConcepto></cfdi:ComplementoConcepto>
             <cfdi:Parte ClaveProdServ="01010101" NoIdentificacion="7501030283645" Cantidad="10" Unidad="piezas"  Descripcion="Martillos de impacto" ValorUnitario="100.00" Importe="1000.00">
-                <cfdi:InformacionAduanera NumeroPedimento="10 47 3807 8003832" />
+                <cfdi:InformacionAduanera NumeroPedimento="10  47  3807  8003832" />
 
             </cfdi:Parte>
 
