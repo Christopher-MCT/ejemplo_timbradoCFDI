@@ -14,16 +14,23 @@
             <cfdi:InformacionAduanera NumeroPedimento="10 47 3807 8003832" />
             <cfdi:CuentaPredial Numero="15956011002" />
             <cfdi:ComplementoConcepto></cfdi:ComplementoConcepto>
-            <cfdi:Parte ClaveProdServ="01010101" Cantidad="" Descripcion=""></cfdi:Parte>
+            <cfdi:Parte ClaveProdServ="01010101" NoIdentificacion="7501030283645" Cantidad="10" Unidad="piezas"  Descripcion="Martillos de impacto" ValorUnitario="100.00" Importe="1000.00">
+                <cfdi:InformacionAduanera NumeroPedimento="10 47 3807 8003832" />
+
+            </cfdi:Parte>
+
         </cfdi:Concepto>
     </cfdi:Conceptos>
-    <cfdi:Impuestos>
-        <cfdi:Traslados>
-            <cfdi:Traslado Base="" Impuesto="001" TipoFactor="Tasa" />
-        </cfdi:Traslados>
+    <cfdi:Impuestos TotalImpuestosRetenidos="3100.00" TotalImpuestosTrasladados="3792.00">
+       
         <cfdi:Retenciones>
-            <cfdi:Retencion Impuesto="001" Importe="" />
+            <cfdi:Retencion Impuesto="001" Importe="1500.00" />
         </cfdi:Retenciones>
+
+        <cfdi:Traslados>
+            <cfdi:Traslado Base="15000.00" Impuesto="001" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="2400.00"/>
+        </cfdi:Traslados>
+
     </cfdi:Impuestos>
     
 
