@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<senv:Envelope xmlns:plink="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:s0="apps.services.soap.core.views" xmlns:s12enc="http://www.w3.org/2003/05/soap-encoding/" xmlns:s12env="http://www.w3.org/2003/05/soap-envelope/" xmlns:senc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:senv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://facturacion.finkok.com/cancel" xmlns:wsa="http://schemas.xmlsoap.org/ws/2003/03/addressing" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><senv:Body><senv:Fault><faultcode>senv:Server</faultcode><faultstring>'NoneType' object has no attribute 'date'</faultstring><faultactor></faultactor></senv:Fault></senv:Body></senv:Envelope>
+<?xml version='1.0' encoding='UTF-8'?>
+<senv:Envelope xmlns:plink="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:s0="apps.services.soap.core.views" xmlns:s12enc="http://www.w3.org/2003/05/soap-encoding/" xmlns:s12env="http://www.w3.org/2003/05/soap-envelope/" xmlns:senc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:senv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://facturacion.finkok.com/cancel" xmlns:wsa="http://schemas.xmlsoap.org/ws/2003/03/addressing" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><senv:Body><senv:Fault><faultcode>senv:Server</faultcode><faultstring>140496548673600:error:0D0C5006:asn1 encoding routines:ASN1_item_verify:EVP lib:a_verify.c:249:
+140496548673600:error:0407006A:rsa routines:RSA_padding_check_PKCS1_type_1:block type is not 01:rsa_pk1.c:103:
+140496548673600:error:04067072:rsa routines:RSA_EAY_PUBLIC_DECRYPT:padding check failed:rsa_eay.c:773:
+140496548673600:error:0D0C5006:asn1 encoding routines:ASN1_item_verify:EVP lib:a_verify.c:249:
+140496548673600:error:04091077:rsa routines:INT_RSA_VERIFY:wrong signature length:rsa_sign.c:189:
+140496548673600:error:0D0C5006:asn1 encoding routines:ASN1_item_verify:EVP lib:a_verify.c:249:
+140496548673600:error:0407006A:rsa routines:RSA_padding_check_PKCS1_type_1:block type is not 01:rsa_pk1.c:103:
+140496548673600:error:04067072:rsa routines:RSA_EAY_PUBLIC_DECRYPT:padding check failed:rsa_eay.c:773:
+140496548673600:error:0D0C5006:asn1 encoding routines:ASN1_item_verify:EVP lib:a_verify.c:249:
+140496548673600:error:04091077:rsa routines:INT_RSA_VERIFY:wrong signature length:rsa_sign.c:189:
+140496548673600:error:0D0C5006:asn1 encoding routines:ASN1_item_verify:EVP lib:a_verify.c:249:
+140496548673600:error:0407006A:rsa routines:RSA_padding_check_PKCS1_type_1:block type is not 01:rsa_pk1.c:103:
+140496548673600:error:04067072:rsa routines:RSA_EAY_PUBLIC_DECRYPT:padding check failed:rsa_eay.c:773:
+140496548673600:error:0D0C5006:asn1 encoding routines:ASN1_item_verify:EVP lib:a_verify.c:249:
+140496548673600:error:0906D06C:PEM routines:PEM_read_bio:no start line:pem_lib.c:707:
+</faultstring><faultactor></faultactor></senv:Fault></senv:Body></senv:Envelope>
+<?xml version='1.0' encoding='UTF-8'?>
+<senv:Envelope xmlns:plink="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:s0="apps.services.soap.core.views" xmlns:s12enc="http://www.w3.org/2003/05/soap-encoding/" xmlns:s12env="http://www.w3.org/2003/05/soap-envelope/" xmlns:senc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:senv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://facturacion.finkok.com/cancel" xmlns:wsa="http://schemas.xmlsoap.org/ws/2003/03/addressing" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><senv:Body><senv:Fault><faultcode>senv:Server</faultcode><faultstring>140408290268928:error:04067072:rsa routines:RSA_EAY_PUBLIC_DECRYPT:padding check failed:rsa_eay.c:773:
+140408290268928:error:0D0C5006:asn1 encoding routines:ASN1_item_verify:EVP lib:a_verify.c:249:
+140408290268928:error:0407006A:rsa routines:RSA_padding_check_PKCS1_type_1:block type is not 01:rsa_pk1.c:103:
+140408290268928:error:04067072:rsa routines:RSA_EAY_PUBLIC_DECRYPT:padding check failed:rsa_eay.c:773:
+140408290268928:error:0D0C5006:asn1 encoding routines:ASN1_item_verify:EVP lib:a_verify.c:249:
+140408290268928:error:04091077:rsa routines:INT_RSA_VERIFY:wrong signature length:rsa_sign.c:189:
+140408290268928:error:0D0C5006:asn1 encoding routines:ASN1_item_verify:EVP lib:a_verify.c:249:
+140408290268928:error:04091077:rsa routines:INT_RSA_VERIFY:wrong signature length:rsa_sign.c:189:
+140408290268928:error:0D0C5006:asn1 encoding routines:ASN1_item_verify:EVP lib:a_verify.c:249:
+140408290268928:error:0407006A:rsa routines:RSA_padding_check_PKCS1_type_1:block type is not 01:rsa_pk1.c:103:
+140408290268928:error:04067072:rsa routines:RSA_EAY_PUBLIC_DECRYPT:padding check failed:rsa_eay.c:773:
+140408290268928:error:0D0C5006:asn1 encoding routines:ASN1_item_verify:EVP lib:a_verify.c:249:
+140408290268928:error:04091077:rsa routines:INT_RSA_VERIFY:wrong signature length:rsa_sign.c:189:
+140408290268928:error:0D0C5006:asn1 encoding routines:ASN1_item_verify:EVP lib:a_verify.c:249:
+140408290268928:error:0906D06C:PEM routines:PEM_read_bio:no start line:pem_lib.c:707:
+</faultstring><faultactor></faultactor></senv:Fault></senv:Body></senv:Envelope>
+<?xml version='1.0' encoding='UTF-8'?>
+<senv:Envelope xmlns:plink="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:s0="apps.services.soap.core.views" xmlns:s12enc="http://www.w3.org/2003/05/soap-encoding/" xmlns:s12env="http://www.w3.org/2003/05/soap-envelope/" xmlns:senc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:senv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://facturacion.finkok.com/cancel" xmlns:wsa="http://schemas.xmlsoap.org/ws/2003/03/addressing" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><senv:Body><senv:Fault><faultcode>senv:Server</faultcode><faultstring>140639897609984:error:04091077:rsa routines:INT_RSA_VERIFY:wrong signature length:rsa_sign.c:189:
+140639897609984:error:0D0C5006:asn1 encoding routines:ASN1_item_verify:EVP lib:a_verify.c:249:
+140639897609984:error:04091077:rsa routines:INT_RSA_VERIFY:wrong signature length:rsa_sign.c:189:
+140639897609984:error:0D0C5006:asn1 encoding routines:ASN1_item_verify:EVP lib:a_verify.c:249:
+140639897609984:error:04091077:rsa routines:INT_RSA_VERIFY:wrong signature length:rsa_sign.c:189:
+140639897609984:error:0D0C5006:asn1 encoding routines:ASN1_item_verify:EVP lib:a_verify.c:249:
+140639897609984:error:04091077:rsa routines:INT_RSA_VERIFY:wrong signature length:rsa_sign.c:189:
+140639897609984:error:0D0C5006:asn1 encoding routines:ASN1_item_verify:EVP lib:a_verify.c:249:
+140639897609984:error:04091077:rsa routines:INT_RSA_VERIFY:wrong signature length:rsa_sign.c:189:
+140639897609984:error:0D0C5006:asn1 encoding routines:ASN1_item_verify:EVP lib:a_verify.c:249:
+140639897609984:error:04091077:rsa routines:INT_RSA_VERIFY:wrong signature length:rsa_sign.c:189:
+140639897609984:error:0D0C5006:asn1 encoding routines:ASN1_item_verify:EVP lib:a_verify.c:249:
+140639897609984:error:04091077:rsa routines:INT_RSA_VERIFY:wrong signature length:rsa_sign.c:189:
+140639897609984:error:0D0C5006:asn1 encoding routines:ASN1_item_verify:EVP lib:a_verify.c:249:
+140639897609984:error:0906D06C:PEM routines:PEM_read_bio:no start line:pem_lib.c:707:
+</faultstring><faultactor></faultactor></senv:Fault></senv:Body></senv:Envelope>
+<?xml version='1.0' encoding='UTF-8'?>
+<senv:Envelope xmlns:plink="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:s0="apps.services.soap.core.views" xmlns:s12enc="http://www.w3.org/2003/05/soap-encoding/" xmlns:s12env="http://www.w3.org/2003/05/soap-envelope/" xmlns:senc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:senv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://facturacion.finkok.com/cancel" xmlns:wsa="http://schemas.xmlsoap.org/ws/2003/03/addressing" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><senv:Body><senv:Fault><faultcode>senv:Server</faultcode><faultstring>140408526116928:error:0906D06C:PEM routines:PEM_read_bio:no start line:pem_lib.c:707:Expecting: CERTIFICATE
+</faultstring><faultactor></faultactor></senv:Fault></senv:Body></senv:Envelope>

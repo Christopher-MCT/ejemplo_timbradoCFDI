@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<senv:Envelope xmlns:plink="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+    xmlns:s0="apps.services.soap.core.views"
+    xmlns:s12enc="http://www.w3.org/2003/05/soap-encoding/"
+    xmlns:s12env="http://www.w3.org/2003/05/soap-envelope/"
+    xmlns:senc="http://schemas.xmlsoap.org/soap/encoding/"
+    xmlns:senv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+    xmlns:tns="http://facturacion.finkok.com/registration"
+    xmlns:wsa="http://schemas.xmlsoap.org/ws/2003/03/addressing"
+    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+    xmlns:xop="http://www.w3.org/2004/08/xop/include"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <senv:Body>
+        <tns:addResponse>
+            <tns:addResult>
+                <s0:message>Account Created successfully</s0:message>
+                <s0:success>true</s0:success>
+            </tns:addResult>
+        </tns:addResponse>
+    </senv:Body>
+</senv:Envelope>

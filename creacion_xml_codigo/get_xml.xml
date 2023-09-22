@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd" Version="4.0" Serie="valor" Folio="01" Fecha="2023-09-21T08:42:50" Sello="aYWSeQHrLTov3MXueN4zVDVmMXPZpcl/51SVZlnvCeY7yBCqIfW01HxLcpnr2fgqkuXfYlR4t6kL9kgYyoWytDjf0h7TptLQjflAb9Iv5mQP44ojV1u+9u0uFB3CVe4GiREpzBdBhv7PbWLuZuAVoy2fxIGrFXwlxl7NgcCarCcdpfC5aAlWh8k/uhEBEe2c2LH1EtjgDab69zGEMuMq51dXR82pzFjbiCjrwFAFFXRuDJw/GfWDgXryqUACY/C1p26CCUrk4MF2WNKTnddmdVpGraAEsiyxWgl5788nkZL/Y2TGC8BpRVG3SH7arLZCE+ptk25NQPfdM+NJy+lqLw==" FormaPago="02" NoCertificado="30001000000500003416" CondicionesDePago="Pago en 30 dias" SubTotal="6474.81" Moneda="MXN" Total="5999.99" TipoDeComprobante="E" Exportacion="01" MetodoPago="PUE" LugarExpedicion="22000" Certificado="MIIFsDCCA5igAwIBAgIUMzAwMDEwMDAwMDA1MDAwMDM0MTYwDQYJKoZIhvcNAQEL
+    BQAwggErMQ8wDQYDVQQDDAZBQyBVQVQxLjAsBgNVBAoMJVNFUlZJQ0lPIERFIEFE
+    TUlOSVNUUkFDSU9OIFRSSUJVVEFSSUExGjAYBgNVBAsMEVNBVC1JRVMgQXV0aG9y
+    aXR5MSgwJgYJKoZIhvcNAQkBFhlvc2Nhci5tYXJ0aW5lekBzYXQuZ29iLm14MR0w
+    GwYDVQQJDBQzcmEgY2VycmFkYSBkZSBjYWxpejEOMAwGA1UEEQwFMDYzNzAxCzAJ
+    BgNVBAYTAk1YMRkwFwYDVQQIDBBDSVVEQUQgREUgTUVYSUNPMREwDwYDVQQHDAhD
+    T1lPQUNBTjERMA8GA1UELRMIMi41LjQuNDUxJTAjBgkqhkiG9w0BCQITFnJlc3Bv
+    bnNhYmxlOiBBQ0RNQS1TQVQwHhcNMjMwNTE4MTE0MzUxWhcNMjcwNTE4MTE0MzUx
+    WjCB1zEnMCUGA1UEAxMeRVNDVUVMQSBLRU1QRVIgVVJHQVRFIFNBIERFIENWMScw
+    JQYDVQQpEx5FU0NVRUxBIEtFTVBFUiBVUkdBVEUgU0EgREUgQ1YxJzAlBgNVBAoT
+    HkVTQ1VFTEEgS0VNUEVSIFVSR0FURSBTQSBERSBDVjElMCMGA1UELRMcRUtVOTAw
+    MzE3M0M5IC8gVkFEQTgwMDkyN0RKMzEeMBwGA1UEBRMVIC8gVkFEQTgwMDkyN0hT
+    UlNSTDA1MRMwEQYDVQQLEwpTdWN1cnNhbCAxMIIBIjANBgkqhkiG9w0BAQEFAAOC
+    AQ8AMIIBCgKCAQEAtmecO6n2GS0zL025gbHGQVxznPDICoXzR2uUngz4DqxVUC/w
+    9cE6FxSiXm2ap8Gcjg7wmcZfm85EBaxCx/0J2u5CqnhzIoGCdhBPuhWQnIh5TLgj
+    /X6uNquwZkKChbNe9aeFirU/JbyN7Egia9oKH9KZUsodiM/pWAH00PCtoKJ9OBcS
+    HMq8Rqa3KKoBcfkg1ZrgueffwRLws9yOcRWLb02sDOPzGIm/jEFicVYt2Hw1qdRE
+    5xmTZ7AGG0UHs+unkGjpCVeJ+BEBn0JPLWVvDKHZAQMj6s5Bku35+d/MyATkpOPs
+    GT/VTnsouxekDfikJD1f7A1ZpJbqDpkJnss3vQIDAQABox0wGzAMBgNVHRMBAf8E
+    AjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAgEAFaUgj5PqgvJigNMg
+    trdXZnbPfVBbukAbW4OGnUhNrA7SRAAfv2BSGk16PI0nBOr7qF2mItmBnjgEwk+D
+    Tv8Zr7w5qp7vleC6dIsZFNJoa6ZndrE/f7KO1CYruLXr5gwEkIyGfJ9NwyIagvHH
+    MszzyHiSZIA850fWtbqtythpAliJ2jF35M5pNS+YTkRB+T6L/c6m00ymN3q9lT1r
+    B03YywxrLreRSFZOSrbwWfg34EJbHfbFXpCSVYdJRfiVdvHnewN0r5fUlPtR9stQ
+    Hyuqewzdkyb5jTTw02D2cUfL57vlPStBj7SEi3uOWvLrsiDnnCIxRMYJ2UA2ktDK
+    Hk+zWnsDmaeleSzonv2CHW42yXYPCvWi88oE1DJNYLNkIjua7MxAnkNZbScNw01A
+    6zbLsZ3y8G6eEYnxSTRfwjd8EP4kdiHNJftm7Z4iRU7HOVh79/lRWB+gd171s3d/
+    mI9kte3MRy6V8MMEMCAnMboGpaooYwgAmwclI2XZCczNWXfhaWe0ZS5PmytD/GDp
+    XzkX0oEgY9K/uYo5V77NdZbGAjmyi8cE2B2ogvyaN2XfIInrZPgEffJ4AB7kFA2m
+    wesdLOCh0BLD9itmCve3A1FGR4+stO2ANUoiI3w3Tv2yQSg4bjeDlJ08lXaaFCLW
+    2peEXMXjQUk7fmpb5MNuOUTW6BE=">
+    <cfdi:CfdiRelacionados TipoRelacion="01">
+        <cfdi:CfdiRelacionado UUID="5FB2822E-396D-4725-8521-CDC4BDD20CCF"/>
+    </cfdi:CfdiRelacionados>
+    <cfdi:Emisor Rfc="EKU9003173C9" Nombre="ESCUELA KEMPER URGATE" RegimenFiscal="601"/>
+    <cfdi:Receptor Rfc="CUSC850516316" Nombre="CESAR OSBALDO CRUZ SOLORZANO" DomicilioFiscalReceptor="45638" RegimenFiscalReceptor="605" UsoCFDI="S01"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="80131500" Cantidad="1" ClaveUnidad="CE" Descripcion="Reparación de lavadora" ValorUnitario="6474.81" Importe="6474.81" ObjetoImp="02">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="6474.81" Importe="517.98" Impuesto="002" TasaOCuota="0.080000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+                <cfdi:Retenciones>
+                    <cfdi:Retencion Base="6474.81" Importe="345.32" Impuesto="002" TasaOCuota="0.053333" TipoFactor="Tasa"/>
+                    <cfdi:Retencion Base="6474.81" Importe="647.48" Impuesto="001" TasaOCuota="0.100000" TipoFactor="Tasa"/>
+                </cfdi:Retenciones>
+            </cfdi:Impuestos>
+            <cfdi:InformacionAduanera NumeroPedimento="10  47  3807  8003832"/>
+            <cfdi:CuentaPredial Numero="15956011002"/>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosRetenidos="992.80" TotalImpuestosTrasladados="517.98">
+        <cfdi:Retenciones>
+            <cfdi:Retencion Impuesto="001" Importe="647.48"/>
+            <cfdi:Retencion Impuesto="002" Importe="345.32"/>
+        </cfdi:Retenciones>
+        <cfdi:Traslados>
+            <cfdi:Traslado Base="6474.81" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.080000" Importe="517.98"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+</cfdi:Comprobante>

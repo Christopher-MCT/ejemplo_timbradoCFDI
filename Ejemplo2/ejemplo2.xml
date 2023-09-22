@@ -1,0 +1,7 @@
+<cfdi:Comprobante mlns:cfdi="http://www.sat.gob.mx/cfd/4"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd" Version="4.0" Serie="" Folio="" Fecha="2023-20-20T12:25:30" Sello="" FormaPago="01">
+
+
+
+
+</cfdi:Comprobante>

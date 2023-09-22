@@ -1,0 +1,34 @@
+#encoding: utf-8
+require 'savon'
+require 'pp'
+require 'rubygems'
+
+class Clientes2
+def register_in_finkok
+
+client = Savon.client(wsdl: "https://demo-facturacion.finkok.com/servicios/soap/registration.wsdl") do
+	convert_request_keys_to :none
+end
+
+        username = "ccalix@finkok.com.mx" #Correo de acceso al panel de FINKOK
+        password = "Legoland1953!" #Contraseña de acceso al panel de FINKOK
+        taxpayer_id = "RFC811110HRM" #RFC Emisor
+        #Envia la peticion al webservice de registro
+        response = client.call(:add, message: { reseller_username: username, reseller_password: password, taxpayer_id: taxpayer_id  })
+
+        #Obtiene el SOAP Request y guarda la respuesta en un archivo
+        ops = client.operation(:add)
+        request = ops.build( message: { reseller_username: username, reseller_password: password, taxpayer_id: taxpayer_id }).to_s
+
+        File.open("SOAP_Request_add.xml", "w") do |file|
+            file.write(request)
+        end
+
+        #Obtiene el SOAP Response y guarda la respuesta en un archivo
+        File.open("SOAP_Response_add.xml", "w") do |file|
+            file.write(response)
+        end
+    end
+        cli = Clientes2.new
+        cli.register_in_finkok
+end

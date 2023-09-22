@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:tns="http://facturacion.finkok.com/registration"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:plink="http://schemas.xmlsoap.org/ws/2003/05/partner-link/"
+    xmlns:s0="apps.services.soap.core.views"
+    xmlns:s12enc="http://www.w3.org/2003/05/soap-encoding/"
+    xmlns:s12env="http://www.w3.org/2003/05/soap-envelope/"
+    xmlns:senc="http://schemas.xmlsoap.org/soap/encoding/"
+    xmlns:senv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+    xmlns:wsa="http://schemas.xmlsoap.org/ws/2003/03/addressing"
+    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+    xmlns:xop="http://www.w3.org/2004/08/xop/include"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <env:Body>
+        <tns:add>
+            <tns:reseller_username>ccalix@finkok.com.mx</tns:reseller_username>
+            <tns:reseller_password>Legoland1953!</tns:reseller_password>
+            <tns:taxpayer_id>RFC811110HRM</tns:taxpayer_id>
+        </tns:add>
+    </env:Body>
+</env:Envelope>

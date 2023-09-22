@@ -1,0 +1,20 @@
+            String usuario = "pruebas@gmail.com"; // Usuario de Finkok
+            String password = "$opoRt3*2019"; // Contraseña de Finkok
+            String RFC = "EKU9003173C9"; // RFC del cliente que se desea agregar
+ 
+            // Instancias del web service
+            ApplicationClient ws = new ApplicationClient();
+            add agregar = new add();
+            addResponse1 respuesta = new addResponse1();
+ 
+            // Envio de párametros al web service
+            agregar.reseller_username = usuario;
+            agregar.reseller_password = password;
+            agregar.taxpayer_id = RFC;
+            agregar.type_user = "O";
+ 
+            // Obtener respuesta del web service
+            respuesta = ws.addAsync(agregar).Result;
+ 
+            // Imprimir respuesta del web service en un mensaje
+            MessageBox.Show(respuesta.addResponse.addResult.message);

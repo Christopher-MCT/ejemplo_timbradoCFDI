@@ -1,0 +1,25 @@
+BY PYTHON METHOD
+MESSAGE: 
+b'<?xml version=\'1.0\' encoding=\'UTF-8\'?>\n<senv:Envelope xmlns:plink="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:s0="apps.services.soap.core.views" xmlns:s12enc="http://www.w3.org/2003/05/soap-encoding/" xmlns:s12env="http://www.w3.org/2003/05/soap-envelope/" xmlns:senc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:senv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://facturacion.finkok.com/registration" xmlns:wsa="http://schemas.xmlsoap.org/ws/2003/03/addressing" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><senv:Body><tns:addResponse><tns:addResult><s0:message>Account Created successfully</s0:message><s0:success>true</s0:success></tns:addResult></tns:addResponse></senv:Body></senv:Envelope>'
+DEBUG:suds.client:http succeeded:
+b'<?xml version=\'1.0\' encoding=\'UTF-8\'?>\n<senv:Envelope xmlns:plink="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:s0="apps.services.soap.core.views" xmlns:s12enc="http://www.w3.org/2003/05/soap-encoding/" xmlns:s12env="http://www.w3.org/2003/05/soap-envelope/" xmlns:senc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:senv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://facturacion.finkok.com/registration" xmlns:wsa="http://schemas.xmlsoap.org/ws/2003/03/addressing" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><senv:Body><tns:addResponse><tns:addResult><s0:message>Account Created successfully</s0:message><s0:success>true</s0:success></tns:addResult></tns:addResponse></senv:Body></senv:Envelope>'
+(RegistrationResult){
+   message = "Account Created successfully"
+   success = True
+ }
+
+
+ By PHP method
+ REQUEST:
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://facturacion.finkok.com/registration"><SOAP-ENV:Body><ns1:add><ns1:reseller_username>ccalix@finkok.com.mx</ns1:reseller_username><ns1:reseller_password>Legoland1953!</ns1:reseller_password><ns1:taxpayer_id>AAD990814BP7</ns1:taxpayer_id></ns1:add></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+stdClass Object
+(
+    [addResult] => stdClass Object
+        (
+            [message] => Account Created successfully
+            [success] => 1
+        )
+
+)
